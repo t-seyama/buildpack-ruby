@@ -504,6 +504,19 @@ WARNING
           libyaml_dir = "#{tmpdir}/#{LIBYAML_PATH}"
           install_libyaml(libyaml_dir)
 
+          puts '---------------------------'
+          puts '---------------------------'
+          puts '---------------------------'
+          puts '---------------------------'
+          puts ENV['BUNDLE_GEMFILE']
+          puts user_env_hash['BUNDLE_GEMFILE']
+          puts env('BUNDLE_GEMFILE')
+          puts '---------------------------'
+          puts '---------------------------'
+          puts '---------------------------'
+          puts '---------------------------'
+
+
           # need to setup compile environment for the psych gem
           yaml_include   = File.expand_path("#{libyaml_dir}/include").shellescape
           yaml_lib       = File.expand_path("#{libyaml_dir}/lib").shellescape
