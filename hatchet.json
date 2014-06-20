@@ -24,7 +24,8 @@
     "sharpstone/mri_193_p484",
     "sharpstone/ruby_193_jruby_173",
     "sharpstone/ruby_193_jruby_176",
-    "sharpstone/empty-procfile"
+    "sharpstone/empty-procfile",
+    "cf-buildpacks/multiple-gemfiles"
   ],
   "rack": [
     "sharpstone/default_ruby",
